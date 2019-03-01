@@ -1,16 +1,42 @@
 body {
-    
-    background-image: url("https://resizeimage.net/mypic/hOdbaeJKWQjkQREy/cJqaF/illu.jpg");
-    background-size: cover;
+    background: url(../images/850342-2.jpg);
 }
 
 #game {
-margin-right: 35px;
+margin-left: 10px;
 background: white;
-opacity: 0.7;
+opacity: 0.75;
 text-align: center;
 }
 
+h1 {
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
 .jumbotron {
 opacity: 0.7;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.instructions { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.instruc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: -40px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+
 }

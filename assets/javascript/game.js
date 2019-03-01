@@ -4,7 +4,7 @@ var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.l
 var wins = 0;
 var losses = 0;
 var guessesLeft = 12; 
-var guessesSoFar = [];
+var guessesSoFar = [ ];
 console.log(computerGuess);
 console.log(wins);
 console.log(guessesLeft);
@@ -28,7 +28,7 @@ console.log(losses);
         if (userGuessLower === computerGuess) {
             wins++;
             guessesLeft = 12;
-            guessesSoFar = [];
+            guessesSoFar = [ ];
             computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
           }
         else {
