@@ -28,7 +28,8 @@ console.log(losses);
         if (userGuessLower === computerGuess) {
             wins++;
             guessesLeft = 12;
-            guessesSoFar = []
+            guessesSoFar = [];
+            computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
           }
         else {
             guessesLeft--;
@@ -41,6 +42,7 @@ console.log(losses);
         guessesLeft = 12;
 // reset guesses so far //
         guessesSoFar = [];
+        computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
         }
 guessesSoFar.push(event.key)
 
